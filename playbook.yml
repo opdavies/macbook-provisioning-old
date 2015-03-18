@@ -1,0 +1,27 @@
+---
+- hosts: all
+
+  vars:
+    application_dir: '/Applications'
+    applications:
+      - alfred
+      - firefox
+      - google-chrome
+      - gpgtools
+      - phpstorm
+      - sequel-pro
+      - spotify
+      - the-unarchiver
+      - tunnelblick
+      - vagrant
+      - virtualbox
+      - vlc
+    brews:
+      - rsync
+      - ssh-copy-id
+      - wget
+      - zsh
+    caskroom_dir: '/usr/local/caskroom'
+
+  tasks:
+    - include: tasks/homebrew.yml tags=homebrew
