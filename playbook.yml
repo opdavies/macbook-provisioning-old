@@ -5,12 +5,24 @@
     application_dir: '/Applications'
     applications:
       - alfred
+      - bartender
+      - caffeine
+      - chronomate
+      - clamxav
+      - cyberduck
+      - dropbox
       - firefox
+      - flux
       - google-chrome
       - gpgtools
+      - instacast1
+      - iterm2
+      - moom
       - opera
       - phpstorm
       - sequel-pro
+      - skitch1
+      - skype
       - spotify
       - sublime-text3
       - the-unarchiver
